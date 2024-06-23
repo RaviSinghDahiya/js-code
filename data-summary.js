@@ -19,7 +19,30 @@ let fun = function(){
     console.log('hello world');
 }
 
-console.log(fun());
+//console.log(fun());
+
+// ++++++++++++++++++ ++++++++++++++++++
+// stack (Primitive) heap (Non-Primitive)
+
+let myCity = "Noida";
+let newCity = myCity;
+newCity = "Hansi"
+
+// console.log(myCity);
+// console.log(newCity);
+
+
+let userOne = {
+    email: "ravi@gmail.com",
+    vill: "Jita Kheri"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "ravi@yahoo.com";
+
+console.log(userOne);
+console.log(userTwo);
 
 
 
