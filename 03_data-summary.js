@@ -30,7 +30,8 @@ newCity = "Hansi"
 
 // console.log(myCity);
 // console.log(newCity);
-
+// output myCity => Noida
+// output newCity => Hansi
 
 let userOne = {
     email: "ravi@gmail.com",
@@ -41,8 +42,10 @@ let userTwo = userOne;
 
 userTwo.email = "ravi@yahoo.com";
 
-console.log(userOne);
-console.log(userTwo);
+// console.log(userOne);
+// console.log(userTwo);
+// output userOne => { email: 'ravi@yahoo.com', vill: 'Jita Kheri' }
+// output userTwo => { email: 'ravi@yahoo.com', vill: 'Jita Kheri' }
 
 
 
